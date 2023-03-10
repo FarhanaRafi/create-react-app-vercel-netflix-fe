@@ -5,6 +5,7 @@ import MyFooter from "./components/MyFooter";
 import AllCards from "./components/AllCards";
 import TvShows from "./components/TvShows";
 import Jumbo from "./components/Jumbo";
+import NewBlogPost from "./components/BackOffice";
 // import Profile from "./components/Profile";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       {/* <Profile /> */}
       <TvShows />
       <AllCards />
+      <NewBlogPost />
       <MyFooter />
     </div>
   );
