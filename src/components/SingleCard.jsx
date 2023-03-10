@@ -20,7 +20,7 @@ class SingleCard extends Component {
               {/* <i class="bi bi-plus-circle mr-2"></i> */}
             </div>
             <h5 className="text-success mb-2">95% Match</h5>
-            <h6>{this.props.card.Title}</h6>
+            <h6>{this.props.card.title}</h6>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Asperiores cum doloribus .
