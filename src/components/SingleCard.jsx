@@ -8,7 +8,7 @@ class SingleCard extends Component {
     return (
       //   <div className="mb-3 card1">
       <div className="movie-card">
-        <img src={this.props.card.Poster} alt="#" height={340} />
+        <img src={this.props.card.poster} alt="#" height={340} width={230} />
         <div>
           <div className="book-title info-container ">
             <div className="play-btn">

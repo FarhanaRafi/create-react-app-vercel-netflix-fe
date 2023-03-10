@@ -2,6 +2,7 @@ import { Component } from "react";
 import SingleCard from "./SingleCard";
 import { Row, Col, Spinner, Alert } from "react-bootstrap";
 
+const url = "http://localhost:3001";
 class CardSet extends Component {
   state = {
     // search: this.props.search,
@@ -11,7 +12,7 @@ class CardSet extends Component {
     isError: false,
   };
   fetchCards = async () => {
-    let response = await fetch("http://localhost:3001/medias");
+    let response = await fetch(url + "/medias");
     console.log(response);
     if (response.ok) {
       let data = await response.json();
