@@ -2,7 +2,7 @@ import { Component } from "react";
 import SingleCard from "./SingleCard";
 import { Row, Col, Spinner, Alert } from "react-bootstrap";
 
-const url = "http://localhost:3001";
+const url = process.env.REACT_APP_URL;
 class CardSet extends Component {
   state = {
     // search: this.props.search,
